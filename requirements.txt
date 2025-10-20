@@ -1,0 +1,22 @@
+# Run the server
+fastapi
+uvicorn
+
+# Image handling
+pillow
+
+# Web template
+jinja2
+
+# Others
+python-multipart
+
+numpy
+torch
+torchvision
+matplotlib
+pydotplus
+scikit-learn
+pandas
+scikit-image
+seaborn

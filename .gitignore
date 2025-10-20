@@ -1,0 +1,153 @@
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.claude
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================================================
+# Jupyter Notebook
+# ============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+# VSCode
+.vscode/*
+!.vscode/launch.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# ============================================================================
+# Operating System
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*/.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ============================================================================
+# Project-specific Python/ML
+# ============================================================================
+# Model files
+*.pt
+checkpoint-*.pt
+*.sav
+*.pickle
+*.h5
+*.pkl
+
+# Data directories
+augmented_data/
+compressed_data/
+
+# Output directories
+tmp/
+pcbm_output/
+logging/
+gradio_cached_examples/
+results/*matrix*
+
+# Test files
+test.*
+o-testlayer*
+
+# Weights and experiments
+weighted_random_*
+
+# ============================================================================
+# SLURM (HPC job scheduler)
+# ============================================================================
+slurm/slurm*
+slurm/*/*.out
+slurm/*.out
+reproducibility/*/*.out
+
+# ============================================================================
+# Secrets and credentials
+# ============================================================================
+keypass.py
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# ============================================================================
+# Frontend (React/Node.js)
+# ============================================================================
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+*/node_modules/
+
+# Testing
+frontend/coverage/
+
+# Production build
+frontend/build/
+
+# Environment files
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+
+# Optional frontend files
+frontend/.cache
+frontend/.parcel-cache
+
+# ============================================================================
+# Legacy/Archive (commented out - uncomment if needed)
+# ============================================================================
+server_scripts/
